@@ -9,9 +9,9 @@ const nextConfig = {
     ],
     domains: ['localhost', 'aslan19p.uz',],
   },
-  experimental: {
-    serverActions: false,
-  },
+  // experimental: {
+  //   serverActions: true,
+  // },
 };
 
 module.exports = nextConfig;
