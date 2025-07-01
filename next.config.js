@@ -7,7 +7,7 @@ const nextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
-    domains: ['localhost'],
+    domains: ['localhost', 'aslan19p.uz',],
   },
   experimental: {
     serverActions: false,
