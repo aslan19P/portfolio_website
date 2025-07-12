@@ -16,6 +16,7 @@ export default function LanguageSwitch() {
             setLanguage(lang);
             location.reload();
           }}
+          style={{textDecoration: 'none'}}
           className={`px-2 py-1 rounded ${
             lang === language ? "bg-black text-white dark:bg-white dark:text-black" : "hover:underline"
           }`}
